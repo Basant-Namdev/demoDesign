@@ -1,0 +1,36 @@
+#nav {
+    margin-bottom: 1rem;
+    display: flex;
+    background-color: #80808075;
+    padding: .3rem;
+    border-radius: .5rem;
+}
+
+#nav>div {
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#nav>:first-child {
+    background-color: white;
+    border-radius: .5rem;
+}
+
+.custom-bordered th,
+.custom-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+.addNew {
+    all: unset;
+    text-align: center;
+    padding: .7rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    box-shadow: 0 0px 1px black;
+    color: grey;
+    width: 100%;
+    font-weight: bold;
+    background-color: white;
+}
